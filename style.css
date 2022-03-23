@@ -1,0 +1,952 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&family=Titillium+Web&display=swap');
+
+
+
+
+
+
+
+body{
+    background-image: url(img/gym4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+
+form{
+    background-color: rgba(167, 187, 199, 0.8);
+    padding: 2%;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+/* Header Information */
+.header-info{
+    background: rgba(107, 106, 106, 0.5);
+    width: 95%;
+    text-align: center;
+    padding: 2%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    color: white;
+}
+
+.header-info #title{
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2rem;
+
+}
+
+.header-info #description{
+    color: white;
+    letter-spacing: 0.1em;
+    line-height: 170%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.3rem;
+}
+
+/* End Header Information */
+
+
+/* General Information Section */
+form .gen-info label{
+    display: inline-block;
+    width: 16%;
+    margin: 1% 0;
+    margin-left: 10%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+form .gen-info input{
+    width: 60%;
+    margin: 1% 0;
+    cursor: pointer;
+    border: none;
+    height: 11px;
+    background: rgba(167, 187, 199, 0);
+}
+
+form .gen-info input:hover{
+    border: 0.5px solid #42fbf2;
+    transition: ease all 0.4s;
+    height: 30px;
+    background: white;
+}
+
+form .gen-info input:active{
+    border: 0.5px solid #42fbf2;
+    transition: ease all 0.4s;
+    height: 30px;
+    background: white;
+}
+
+form .gen-info input::placeholder{
+     color:rgba(95, 93, 93, 1); 
+    
+}
+/* End General Information Section */
+
+
+/* Body Type Radio Group Section */
+
+#select-bod{
+    width: 40%;
+    font-weight: 600;
+}
+
+.bod-typ label{
+    display: inline-block;
+    width: 32%;
+    margin: 1% 0;
+    margin-left: 31%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.bod-typ input{
+    width: 3%;
+}
+
+/* End Body Type Radio Group Section */
+
+
+
+/* Do you consider youself a healthy person Radio Group */
+
+.healthy-person label{
+    display: inline-block;
+    margin: 1% 0;
+    margin-left: 45%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 4%;
+}
+
+.healthy-person input{
+    width: 5%;
+}
+
+#healthy-question {
+    margin-left: 25%;
+    width: 56%;
+    font-weight: 600;
+}
+
+/* End Do you consider youself a healthy person Radio Group */
+
+
+/* Do you think exercise is good for you Radio Group */
+
+.good4you label{
+    display: inline-block;
+    width: 36%;
+    margin: 1% 0;
+    margin-left: 30%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.good4you input{
+    width: 2%;
+}
+
+#good-question-label{
+    width: 50%;
+    margin-bottom: 2%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 600;
+    margin-left: 25%;
+}
+
+/* End Do you think exercise is good for you Radio Group */
+
+
+
+/* How often do you excercise Range */
+
+.how-often{
+    margin-top: 4.5%;
+}
+
+.how-often label{
+    margin-left: 18%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.how-often input{
+    margin: 2% 0 0 37%;
+}
+
+/* End How often do you excercise Range */
+
+
+/* What kind of excercise do you do Checklist */
+
+#what-kind-question-label{
+    width: 90%;
+    margin-left: 10%;
+    margin-bottom: 4%;
+    font-weight: 600;
+}
+
+.what-kind label{
+    display: inline-block;
+    margin: 1% 0;
+    width: 35%;
+    margin-left: 33%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+/* End What kind of excercise do you do Checklist */
+
+/* How long do you typically excercise for Range */
+
+.how-long label{
+    margin-left: 5%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.how-long input{
+    margin: 2% 0 0 37%;
+}
+
+/* End How long do you typically excercise for Range */
+
+
+/* What is your motivation for excercising Textarea */
+
+.moti label{
+    display: inline-block;
+    margin-left: 24%;
+    margin-top: 3%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.moti textarea{
+    display: inline-block;
+    margin-left: 36.5%;
+    margin-top: 2%;
+    border: none;
+    width: 25%;
+    height: 13px;
+    background-color:rgba(167, 187, 199, 0) ;
+    resize: none;
+    overflow: hidden;
+}
+
+.moti textarea:hover{
+    border: 0.5px solid #42fbf2;
+    transition: ease all 0.9s;
+    height: 15%;
+    width: 28%;
+    margin-left: 34%;
+    background: white;
+    resize: both;
+    overflow: auto;
+    padding-left: 3%;
+    padding-right: 1%;
+}
+
+.moti textarea::placeholder{
+    color:rgba(95, 93, 93, 1);
+}
+/* End What is your motivation for excercising Textarea */
+
+/* How important is excercise for you Dropdown Select */
+
+.how-important label{
+    display: inline-block;
+    margin: 3% 0 0 27%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.how-important select{
+    margin: 2% 0 1% 31%;
+    border: none;
+    background-color: rgba(167, 187, 199, 0);
+}
+
+.how-important select:hover{
+    transition: ease all 0.6s;
+    border: 0.5px solid #42fbf2;
+    height: 30px;
+    background: white;
+    letter-spacing: 0.03rem;
+    margin-left: 29.5%;
+}
+
+/* End How important is excercise for you Textarea */
+
+
+/* Additional Comments Textarea */
+
+.addcommen label{
+    display: inline-block;
+    margin: 7.5% 0 2% 35.5%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.addcommen textarea{
+    margin: 0 0 2% 29%;
+    width: 40%;
+    background-color: rgba(167, 187, 199, 0);
+    resize: none;
+    padding:1%;
+    border: none;
+}
+
+.addcommen textarea:hover{
+    border: 0.5px solid #42fbf2;
+    transition: ease all 0.9s;
+    height: 15%;
+    margin-left: ;
+    background: white;
+    resize: both;
+    overflow: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.addcommen textarea::placeholder{
+    color:rgba(95, 93, 93, 1);
+}
+/* End Additional Comments Textarea */
+
+/* Submit Button */
+#bttn-holder{
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: -12%;
+}
+
+#submit{
+    padding:0.7rem 1.5rem;
+    font-family: 'Padauk', sans-serif;
+    font-weight: ;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
+    border-radius: 10px 10px 0 0;
+    transform: rotate(270deg);
+    position: relative;
+    left: 608.5px;
+    bottom: 80px;
+    border: 0.1rem solid #42fbf2;
+    transition: ease-out 0.3s;
+    background: rgba(80, 80, 80, 0.6);
+    color: white;
+    z-index: 1;
+}
+
+#submit:hover{
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    overflow: hidden;
+}
+
+#submit:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top:0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: rgba(60, 251, 242, 0.6);
+}
+
+#submit:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+#submit:active{
+    color: black;
+    font-weight: 600;
+    transition: ease 0.1s;
+}
+/* End Submit Button */
+
+
+/* Tablets */
+@media screen and (max-width: 768px){
+    
+    form{
+        background-color: rgba(167, 187, 199, 0.8);
+        padding: 2%;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    
+    /* General Info Selection*/
+    form .gen-info label{
+        display: inline-block;
+        width: 21%;
+        margin: 1% 0;
+        margin-left: 10%;
+        font-family: 'Padauk', sans-serif;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+    /* End General Info Selection*/
+
+    /* Body Type Group Selection */
+    
+    .bod-typ label{
+        display: inline-block;
+        width: 32%;
+        margin: 2% 0;
+        margin-left: 31%;
+        font-family: 'Padauk', sans-serif;
+        font-weight: 500;
+        font-size: 1.2rem;
+        letter-spacing: 0.030rem;
+
+    }
+
+    .bod-typ #select-bod{
+        margin-left: 29%;
+    }
+    
+    .bod-typ input{
+        width: 3%;
+    }
+    
+    /* End Body Type Group Selection */
+
+    /* Do you consider youself a healthy person Radio Group */
+    
+    #healthy-question {
+        margin-left: 19%;
+        width: 73%;
+        font-weight: 600;
+        
+    }
+    
+    /* End Do you consider youself a healthy person Radio Group */
+
+    /* Do you think exercise is good for you Radio Group */
+    
+    .good4you label{
+        display: inline-block;
+        width: 60%;
+        margin: 1% 0;
+        margin-left: 25%;
+        font-family: 'Padauk', sans-serif;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+    
+    .good4you input{
+        width: 3%;
+        margin-left: -14%;
+        margin-top: 6.5%;
+    }
+    
+    #good-question-label{
+        width: 65.5%;
+        margin-bottom: 2%;
+        font-family: 'Padauk', sans-serif;
+        font-weight: 600;
+        margin-left: 24%;
+    }
+    
+    /* End Do you think exercise is good for you Radio Group */
+
+    /* How often do you excercise Range */
+
+    .how-often label{
+        margin-left: 14%;
+        font-family: 'Padauk', sans-serif;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+
+    .how-often input{
+        margin-top: 4%;
+    }
+
+    /* End How often do you excercise Range */
+
+    /* What kind of exercise do you usually do Checkbox  */
+    
+    #what-kind-question-label{
+        width: 100%;
+        margin-left: 6%;
+        margin-bottom: 4%;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+    
+    .what-kind label{
+        display: inline-block;
+        margin-top: 4%;
+        width: 35%;
+        margin-left: 33%;
+        font-family: 'Padauk', sans-serif;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
+    .what-kind hr{
+        margin-top: 4.5%;
+        margin-bottom: 2.5%;
+    }
+
+    /* End What kind of exercise do you usually do Checkbox  */
+    
+    /* How long do you typically excercise for Range */
+
+.how-long label{
+    
+    margin-left: 5%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.how-long input{
+    margin: 5% 0 0 37%;
+}
+
+/* End How long do you typically excercise for Range */
+
+/* Additional Comments Textarea */
+
+.addcommen label{
+    display: inline-block;
+    margin: 7.5% 0 2% 35.5%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 3%;
+}
+
+/* End Additional Comments Textarea */
+
+/* Submit Button */
+
+#bttn-holder{
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: -12%;
+}
+
+#submit{
+    padding:0.7rem 1.5rem;
+    font-family: 'Padauk', sans-serif;
+    font-weight: ;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
+    border-radius: 10px 10px 0 0;
+    transform: rotate(270deg);
+    position: relative;
+    left: 60%;
+    bottom: 10.5rem;
+    border: 0.1rem solid #42fbf2;
+    transition: ease-out 0.3s;
+    background: rgba(80, 80, 80, 0.6);
+    color: white;
+    z-index: 1;
+
+    /* End Submit Button */
+}
+
+}
+
+
+
+
+/* Mobiles */
+@media screen and (max-width: 400px){
+
+    form{
+        background-color: rgba(167, 187, 199, 0.8);
+        padding: 2%;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+
+    /* Header Information */
+
+    .header-info #description{
+    color: white;
+    text-align: justify;
+    width: 85%;
+    margin-left: 6%;
+    letter-spacing: 0.1em;
+    line-height: 170%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.3rem;
+}
+
+/* End Header Information */
+
+/* General Information Section */
+form .gen-info label{
+    display: inline-block;
+    width: 35%;
+    margin: 7% 0 2% 0;
+    margin-left: 36%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+form .gen-info input{
+    width: 60%;
+    margin: 0 0 5% 25%;
+    cursor: pointer;
+    border: none;
+    height: 11px;
+    background: rgba(167, 187, 199, 0);
+}
+
+.gen-info #email-label{
+    margin-left: 40%;
+
+}
+
+.gen-info #email{
+    margin-left: 26%;
+}
+
+form .gen-info input:hover{
+    border: 0.5px solid #42fbf2;
+    transition: ease all 0.4s;
+    height: 30px;
+    background: white;
+    margin-left: 20%;
+}
+
+.gen-info #email:hover{
+    margin-left:21% ;
+}
+
+.gen-info #number{
+    margin-left: 33%;
+
+}
+
+.gen-info #number:hover{
+    margin-left: 23%;
+    margin-top: 1.8%;
+}
+
+.gen-info #number-label{
+    margin-left: 45%;
+}
+
+/* End General Information Section */
+
+/* Body Type Radio Group */
+
+#select-bod{
+    margin-left: 20% !important;
+    width: 64%;
+    font-weight: 600;
+}
+
+.bod-typ label{
+    display: inline-block;
+    width: 35%;
+    margin: 5% 0;
+    margin-left: 31%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.bod-typ input{
+    width: 4%;
+    margin-top: 1%;
+}
+
+/* End Body Type Radio Group */
+
+/* Do you consider youself a healthy person Radio Group */
+
+.healthy-person input{
+    width: 16%;
+}
+
+#healthy-question {
+    margin-left: 3.5%;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* End Do you consider youself a healthy person Radio Group */
+
+/* Do you think exercise is good for you Radio Group */
+
+.good4you label{
+    display: inline-block;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 6.5%;
+    margin-left: 2%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.good4you input{
+    width: 4%;
+}
+
+#good-question-label{
+    width: 95%;
+    margin-bottom: 2%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 600;
+    margin-left: 5%;
+}
+
+/* End Do you think exercise is good for you Radio Group */
+
+/* How often do you excercise Range */
+
+.how-often{
+    margin-top: 4.5%;
+}
+
+.how-often label{
+    margin-left: 1%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.how-often input{
+    margin: 7% 0 0 37%;
+    margin-left: 27%;
+}
+
+/* End How often do you excercise Range */
+
+/* What kind of excercise do you do Checklist */
+
+#what-kind-question-label{
+    width: 100%;
+    margin-left: 1%;
+    margin-bottom: 6%;
+    font-weight: 600;
+}
+
+.what-kind label{
+    display: inline-block;
+    margin: 3% 0;
+    margin-right: 5%;
+    width: 35%;
+    margin-left: 29%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+/* End What kind of excercise do you do Checklist */
+
+
+/* How long do you typically excercise for Range */
+
+.how-long label{
+    margin-left: 1%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.how-long input{
+    margin: 6% 0 0 29%;
+}
+
+/* End How long do you typically excercise for Range */
+
+/* What is your motivation for excercising Textarea */
+
+.moti label{
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 2.5%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.moti textarea{
+    display: inline-block;
+    margin-left: 36.5%;
+    margin-top: 2%;
+    border: none;
+    width: 25%;
+    height: 13px;
+    background-color:rgba(167, 187, 199, 0) ;
+    resize: none;
+    overflow: hidden;
+}
+
+/* End What is your motivation for excercising Textarea */
+
+
+/* How important is excercise for you Dropdown Select */
+
+.how-important label{
+    display: inline-block;
+    margin: 3% 0 0 6%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.how-important select{
+    margin: 4% 0 1% 12%;
+    border: none;
+    background-color: rgba(167, 187, 199, 0);
+}
+
+.how-important select:hover{
+    transition: ease all 0.6s;
+    border: 0.5px solid #42fbf2;
+    height: 30px;
+    background: white;
+    letter-spacing: 0.03rem;
+    margin-left: 8%;
+}
+
+/* End How important is excercise for you Dropdown Select */
+
+/* Additional Comments Textarea */
+
+.addcommen label{
+    display: inline-block;
+    margin: 7.5% 0 2% 20%;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.addcommen textarea{
+    margin: 1% 0 2% 6%;
+    width: 90%;
+    background-color: rgba(167, 187, 199, 0);
+    resize: none;
+    padding:1%;
+    border: none;
+}
+
+.addcommen textarea:hover{
+    border: 0.5px solid #42fbf2;
+    transition: ease all 0.9s;
+    height: 15%;
+    margin-left: 3.5%;
+    background: white;
+    resize: both;
+    overflow: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+/* End Additional Comments Textarea */
+
+/* Submit Button */
+
+#bttn-holder{
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: -15%;
+}
+
+#submit{
+    padding:0.2rem 1.5rem;
+    font-family: 'Padauk', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
+    border-radius: 10px 10px 0 0;
+    transform: rotate(270deg);
+    position: relative;
+    left: 62%;
+    bottom: 150px;
+    border: 0.1rem solid #42fbf2;
+    transition: ease-out 0.3s;
+    background: rgba(80, 80, 80, 0.6);
+    color: white;
+    z-index: 1;
+}
+
+#submit:hover{
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    overflow: hidden;
+}
+
+#submit:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top:0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: rgba(60, 251, 242, 0.6);
+}
+
+#submit:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+#submit:active{
+    color: black;
+    font-weight: 600;
+    transition: ease 0.1s;
+}
+
+/* End Submit Button */
+}
