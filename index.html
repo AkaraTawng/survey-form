@@ -142,8 +142,13 @@
 
         <!-- How long do you typically exercise for?  -->
         <div class="how-long">
-            <label for="how-long">How long do you typically excercise for? (15-minutes - 10-hours)</label>
-            <input name="" type="range" id="how-long" value="how-long" min="0.15" max="10" step="0.15" required>
+            <label for="how-long">How long do you typically excercise for?</label>
+            <input name="" type="range" id="how-long" value="how-long" min="0" max="60" step="1" required oninput="this.nextElementSibling.value = this.value">
+            <output id="how-long-value">0</output>
+            <select id="how-long-dropdown">
+                <option value="min">min</option>
+                <option value="hr(s)">hr(s)</option>
+            </select>
         </div>
         <br>
         <hr>
@@ -163,11 +168,11 @@
             <br>
             <select id="dropdown" required>
                 <option>The most important thing in my life.</option>
-                <option>Very important.</option>
-                <option>Quite important.</option>
-                <option>Somewhat important.</option>
-                <option>Not very important.</option>
-                <option>Not important at all.</option>
+                <option value="very important">Very important.</option>
+                <option value="quite important">Quite important.</option>
+                <option value="somewhat important">Somewhat important.</option>
+                <option value="not very important">Not very important.</option>
+                <option value="not important at all">Not important at all.</option>
             </select>
         </div>
         <br>
