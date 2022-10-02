@@ -7,7 +7,7 @@ const howLongOutput = document.querySelector("#how-long-value");/* output */
 
 slider.addEventListener("input", function() {
     let x = slider.value;
-    let color = `linear-gradient(90deg, rgb(142, 202, 230) ${x}%, rgb(214, 214, 214) ${x}%)`;
+    let color = `linear-gradient(90deg, rgb(142, 202, 230) ${x / 1.6}%, rgb(214, 214, 214) ${x}%)`;
 
     slider.style.background = color;
 });
