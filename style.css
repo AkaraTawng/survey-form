@@ -238,8 +238,7 @@ form .gen-info input::placeholder{
 }
 
 /* How long do you typically excercise for Range */
-
-.how-long label{
+.how-long label {
     margin-left: 27%;
     font-family: 'Padauk', sans-serif;
     font-weight: 600;
@@ -353,7 +352,6 @@ form .gen-info input::placeholder{
     border: 0.5px solid #42fbf2;
     transition: ease all 0.9s;
     height: 15%;
-    margin-left: ;
     background: white;
     resize: both;
     overflow: auto;
@@ -422,6 +420,101 @@ form .gen-info input::placeholder{
     color: black;
     font-weight: 600;
     transition: ease 0.1s;
+}
+
+@media screen and (min-width: 1920px) {
+#age-value {
+    margin-top: .3%;
+    right: 10%;
+}
+
+.bod-typ label {
+    margin-left: 34%;
+}
+
+.healthy-person label {
+    margin-left: 46%;
+}
+  #healthy-question {
+    margin-left: 31%;
+}
+
+#good-question-label {
+    margin-left: 33%;
+}
+
+.how-often label{
+    margin-left: 27%;
+}
+
+#how-many-times-output-value /* output */ {
+    right: 42%;
+    margin-top: 1.7%;
+}
+
+#what-kind-question-label {
+    margin-left: 22%;
+    margin-bottom: 1%;
+}
+
+.how-long label {
+    margin-left: 31%;
+}
+
+#how-long-value /* output */ {
+    right: 40%;
+    margin-top: 1.7%;
+}
+
+#how-long-dropdown {
+    margin-top: 1.9%;
+    right: 31%;
+}
+
+.moti label {
+    margin-left: 31%;
+}
+
+.moti textarea {
+    margin-left: 40%;
+}
+
+.moti textarea:hover {
+    margin-left: 33%;
+}
+
+.how-important label {
+    margin-left: 32%;
+}
+
+.how-important select {
+    margin-left: 35.5%;
+}
+
+.how-important select:hover {
+    margin-left: 35%;
+}
+
+.addcommen label {
+    margin-left: 39%;
+}
+
+.addcommen textarea {
+    margin-left: 35%;
+}
+
+.addcommen textarea:hover {
+    margin-left: 27%;
+}
+
+#submit {
+    left: 932px;
+}
+
+
+
+
+
 }
 
 /* Tablet */
