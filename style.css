@@ -82,6 +82,10 @@ form .gen-info input::placeholder{
      color:rgba(95, 93, 93, 1); 
 }
 
+#number[type="number"]{
+    -moz-appearance: textfield;
+}
+
 #age, #how-many-times, #how-long /* input */{
     -webkit-appearance: none;
     height: 5px;
@@ -637,25 +641,33 @@ form .gen-info input:hover{
     transition: ease all 0.4s;
     height: 30px;
     background: white;
-    margin-left: 20%;
+    margin-left: 0%;
 }
 
 .gen-info #email:hover{
     margin-left:21% ;
 }
 
-.gen-info #number{
+/* #number{
     margin-left: 33%;
-}
+} */
+/* 
+form .gen-info input[type="number"]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance: textfield;
+    height: 100px;
+} */
 
-.gen-info #number:hover{
+/* #number:hover{
     margin-left: 23%;
     margin-top: 1.8%;
-}
+} */
 
-.gen-info #number-label{
+/* #number-label{
     margin-left: 45%;
-}
+} */
 
 /* Body Type Radio Group */
 #select-bod{
