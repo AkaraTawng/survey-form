@@ -239,14 +239,14 @@ form .gen-info input::placeholder{
 /* How long do you typically excercise for Range */
 
 .how-long label{
-    margin-left: 5%;
+    margin-left: 27%;
     font-family: 'Padauk', sans-serif;
     font-weight: 600;
     font-size: 1.2rem;
 }
 
 #how-long /* input */{
-    margin: 2% 0 0 37%;
+    margin: 3% 0 0 37%;
     cursor: pointer;
 }
 
@@ -257,11 +257,13 @@ form .gen-info input::placeholder{
     border-radius: 30px;
     padding: 4px 10px;
     right: 35%;
+    margin-top: 1.5%;
 }
 
 #how-long-dropdown {
     position: absolute;
     right: 25%;
+    margin-top: 1.8%;
 }
 
 /* What is your motivation for excercising Textarea */
