@@ -114,8 +114,8 @@ form .gen-info input::placeholder{
     height: 20px;
     width: fit-content;
     position: absolute;
-    right: 10%;
-    top: ;
+    right: 9%;
+    margin-top: .5%;
     border-radius: 30px;
     background-color: rgb(218, 218, 218);
 }
