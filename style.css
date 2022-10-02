@@ -6,6 +6,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 form{
@@ -331,7 +332,6 @@ form .gen-info input::placeholder{
 }
 
 /* Additional Comments Textarea */
-
 .addcommen label{
     display: inline-block;
     margin: 7.5% 0 2% 35.5%;
@@ -375,14 +375,13 @@ form .gen-info input::placeholder{
 #submit{
     padding:0.7rem 1.5rem;
     font-family: 'Padauk', sans-serif;
-    font-weight: ;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     font-size: 0.9rem;
     border-radius: 10px 10px 0 0;
     transform: rotate(270deg);
     position: relative;
-    left: 608.5px;
+    left: 745px;
     bottom: 80px;
     border: 0.1rem solid #42fbf2;
     transition: ease-out 0.3s;
