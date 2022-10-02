@@ -200,17 +200,18 @@ form .gen-info input::placeholder{
 }
 
 #how-many-times /* input */{
-    margin: 2% 0 0 37%;
+    margin: 3% 0 0 37%;
     cursor: pointer;
 }
 
-#how-many-times-output-value {
+#how-many-times-output-value /* output */ {
     background-color: rgb(218, 218, 218);
     width: fit-content;
     position: absolute;
     border-radius: 30px;
     padding: 4px 10px;
-    right: 27%;
+    right: 37%;
+    margin-top: 1.4%;
 }
 
 /* What kind of excercise do you do Checklist */
@@ -262,10 +263,6 @@ form .gen-info input::placeholder{
     position: absolute;
     right: 25%;
 }
-
-
-
-
 
 /* What is your motivation for excercising Textarea */
 .moti label{
