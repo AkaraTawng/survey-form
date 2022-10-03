@@ -122,7 +122,7 @@ form .gen-info input::placeholder{
 }
 
 /* Body Type Radio Group Section */
-#select-bod{
+#select-bod {
     width: 40%;
     font-weight: 600;
 }
@@ -515,6 +515,10 @@ form .gen-info input::placeholder{
 
 /* Tablet */
 @media screen and (max-width: 770px){
+
+    body {
+        background-size: 150% 100%;
+    }
     
     form{
         background-color: rgba(167, 187, 199, 0.8);
@@ -624,16 +628,6 @@ form .gen-info input::placeholder{
     margin-left: 32%;
 }
 
-/* Additional Comments Textarea */
-.addcommen label{
-    display: inline-block;
-    margin: 7.5% 0 2% 35.5%;
-    font-family: 'Padauk', sans-serif;
-    font-weight: 600;
-    font-size: 1.2rem;
-    margin-top: 3%;
-}
-
 /* Submit Button */
 #bttn-holder{
     margin-top: 4%;
@@ -642,35 +636,19 @@ form .gen-info input::placeholder{
 }
 
 #submit{
-    padding:0.7rem 1.5rem;
-    font-family: 'Padauk', sans-serif;
-    font-weight: ;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    font-size: 0.9rem;
-    border-radius: 10px 10px 0 0;
-    transform: rotate(270deg);
-    position: relative;
-    left: 60%;
-    bottom: 10.5rem;
-    border: 0.1rem solid #42fbf2;
-    transition: ease-out 0.3s;
-    background: rgba(80, 80, 80, 0.6);
-    color: white;
-    z-index: 1;
+    transform: rotate(0deg);
+    left: 0%;
+    bottom: 0;
+}
 }
 
-}
-
-/* Mobiles*/
-@media screen and (max-width: 400px){
-
+@media screen and (max-width: 480px){
+    body {
+        background-size: 200% 100%;
+    }
     form{
-        background-color: rgba(167, 187, 199, 0.8);
-        padding: 2%;
-        width: 80%;
+        width: 88%;
         margin: 0 auto;
-        border-radius: 20px;
     }
 
     /* Header Information */
@@ -687,30 +665,14 @@ form .gen-info input::placeholder{
 
 /* General Information Section */
 form .gen-info label{
-    display: inline-block;
     width: 35%;
     margin: 7% 0 2% 0;
-    margin-left: 36%;
-    font-family: 'Padauk', sans-serif;
-    font-weight: 500;
-    font-size: 1.2rem;
+    margin-left: 40%;
 }
 
 form .gen-info input{
     width: 60%;
-    margin: 0 0 5% 25%;
-    cursor: pointer;
-    border: none;
-    height: 11px;
-    background: rgba(167, 187, 199, 0);
-}
-
-.gen-info #email-label{
-    margin-left: 40%;
-}
-
-.gen-info #email{
-    margin-left: 26%;
+    margin: 0 0 5% 32%;
 }
 
 form .gen-info input:hover{
@@ -718,49 +680,51 @@ form .gen-info input:hover{
     transition: ease all 0.4s;
     height: 30px;
     background: white;
-    margin-left: 0%;
+    margin-left: 22%;
+}
+.gen-info #email-label{
+    margin-left: 44%;
+}
+
+.gen-info #email{
+    margin-left: 35%;
 }
 
 .gen-info #email:hover{
-    margin-left:21% ;
+    margin-left:24% ;
 }
 
-/* #number{
-    margin-left: 33%;
-} */
-/* 
-form .gen-info input[type="number"]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-    -moz-appearance: textfield;
-    height: 100px;
-} */
+#number-label /* age label */{
+    margin-left: 46%;
+}
 
-/* #number:hover{
-    margin-left: 23%;
-    margin-top: 1.8%;
-} */
+#age {
+    margin-left: 20%;
+}
 
-/* #number-label{
-    margin-left: 45%;
-} */
+#age-value {
+    margin-top: -2.5%;
+    right: 9.5%;
+}
+
+#number /* weight input */ {
+    margin-left: 38%;
+}
+
+#number:hover /* weight input */ {
+    margin-left: 24%;
+}
 
 /* Body Type Radio Group */
-#select-bod{
-    margin-left: 20% !important;
+.bod-typ #select-bod{
     width: 64%;
-    font-weight: 600;
+    margin-left: 27%;
 }
 
 .bod-typ label{
-    display: inline-block;
     width: 35%;
     margin: 5% 0;
-    margin-left: 31%;
-    font-family: 'Padauk', sans-serif;
-    font-weight: 500;
-    font-size: 1.1rem;
+    margin-left: 34%;
 }
 
 .bod-typ input{
@@ -774,162 +738,125 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 #healthy-question {
-    margin-left: 3.5%;
+    margin-left: 6%;
     width: 100%;
-    font-weight: 600;
-    font-size: 1.1rem;
 }
 
 /* Do you think exercise is good for you Radio Group */
 .good4you label{
-    display: inline-block;
-    width: 100%;
+ 
     margin-top: 1%;
-    margin-bottom: 1%;
-    margin-right: 6.5%;
-    margin-left: 2%;
+    margin-bottom: 7%;
+    margin-left: 14%;
     font-family: 'Padauk', sans-serif;
-    font-weight: 500;
-    font-size: 1.1rem;
 }
 
 .good4you input{
-    width: 4%;
+    width: fit-content;
+    margin-left: 10%;
 }
 
 #good-question-label{
     width: 95%;
     margin-bottom: 2%;
-    font-family: 'Padauk', sans-serif;
-    font-weight: 600;
-    margin-left: 5%;
+    margin-left: 9%;
 }
 
-/* How often do you excercise Range */
 .how-often{
     margin-top: 4.5%;
 }
 
 .how-often label{
-    margin-left: 1%;
-    font-family: 'Padauk', sans-serif;
-    font-weight: 600;
+    margin-left: 2%;
     font-size: 1.1rem;
-    width: 100%;
+}
+#how-many-times /* input */ {
+    margin-left: 20%;
+    margin-top: 5%;
 }
 
-.how-often input{
-    margin: 7% 0 0 37%;
-    margin-left: 27%;
+#how-many-times-output-value /* output */ {
+    margin-top: 2.2%;
+    right: 30%;
 }
 
-/* What kind of excercise do you do Checklist */
 #what-kind-question-label{
     width: 100%;
     margin-left: 1%;
-    margin-bottom: 6%;
-    font-weight: 600;
 }
 
 .what-kind label{
-    display: inline-block;
     margin: 3% 0;
     margin-right: 5%;
     width: 35%;
     margin-left: 29%;
-    font-family: 'Padauk', sans-serif;
-    font-weight: 500;
     font-size: 1.1rem;
 }
 
-/* How long do you typically excercise for Range */
 .how-long label{
-    margin-left: 1%;
-    font-family: 'Padauk', sans-serif;
-    font-weight: 600;
+    margin-left: 11%;
     font-size: 1.1rem;
     width: 100%;
 }
 
-.how-long input{
-    margin: 6% 0 0 29%;
+#how-long /* input */ {
+margin-top: 5%;
+margin-left: 15%;
+}
+
+#how-long-value /* output */ {
+    right: 34%;
+}
+
+#how-long-dropdown {
+    right: 16%;
 }
 
 /* What is your motivation for excercising Textarea */
 .moti label{
-    display: inline-block;
-    margin-left: 3%;
+    margin-left: 11%;
     margin-top: 3%;
     margin-bottom: 2.5%;
-    font-family: 'Padauk', sans-serif;
-    font-weight: 600;
     font-size: 1.1rem;
-    width: 100%;
 }
 
 .moti textarea{
-    display: inline-block;
-    margin-left: 36.5%;
+    margin-left: 30%;
     margin-top: 2%;
-    border: none;
-    width: 25%;
-    height: 13px;
-    background-color:rgba(167, 187, 199, 0) ;
-    resize: none;
-    overflow: hidden;
+    width: 50%;
+}
+
+.moti textarea:hover {
+    width: 80%;
+    margin-left: 8%;
 }
 
 /* How important is excercise for you Dropdown Select */
 .how-important label{
-    display: inline-block;
-    margin: 3% 0 0 6%;
-    font-family: 'Padauk', sans-serif;
-    font-weight: 600;
+    margin: 3% 0 0 16%;
     font-size: 1.1rem;
-    width: 100%;
 }
 
 .how-important select{
-    margin: 4% 0 1% 12%;
-    border: none;
-    background-color: rgba(167, 187, 199, 0);
+    margin: 4% 0 1% 20%;
 }
 
 .how-important select:hover{
-    transition: ease all 0.6s;
-    border: 0.5px solid #42fbf2;
-    height: 30px;
-    background: white;
-    letter-spacing: 0.03rem;
-    margin-left: 8%;
+    margin-left: 20%;
 }
 
 /* Additional Comments Textarea */
 .addcommen label{
-    display: inline-block;
-    margin: 7.5% 0 2% 20%;
-    font-family: 'Padauk', sans-serif;
-    font-weight: 600;
-    font-size: 1.2rem;
+    margin: 3% 0 2% 28%;
 }
 
 .addcommen textarea{
-    margin: 1% 0 2% 6%;
+    margin: 1% 0 5% 18%;
     width: 90%;
-    background-color: rgba(167, 187, 199, 0);
-    resize: none;
-    padding:1%;
-    border: none;
 }
 
 .addcommen textarea:hover{
-    border: 0.5px solid #42fbf2;
-    transition: ease all 0.9s;
-    height: 15%;
     margin-left: 3.5%;
-    background: white;
-    resize: both;
-    overflow: auto;
     padding-left: 2%;
     padding-right: 2%;
 }
