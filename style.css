@@ -770,6 +770,7 @@ form .gen-info input:hover{
     margin-left: 2%;
     font-size: 1.1rem;
 }
+
 #how-many-times /* input */ {
     margin-left: 20%;
     margin-top: 5%;
@@ -873,3 +874,110 @@ margin-left: 15%;
 }
 }
 
+@media screen and (max-width: 400px) {
+form .gen-info label{
+    width: 100%;
+    margin-left: 37%;
+}
+
+form .gen-info input{
+    width: 60%;
+    margin: 0 0 5% 28%;
+}
+
+.gen-info #email-label {
+    margin-left: 42%;
+}
+
+.gen-info #email /* input */ {
+    margin-left: 31%;
+}
+
+.gen-info #email:hover {
+    margin-left: 22%;
+}
+
+#age {
+    margin-left: 17%;
+}
+
+#age-value {
+    margin-top: -3%;
+    right: 9.5%;
+}
+
+#number /* weight input */ {
+    margin-left: 34%;
+}
+
+.how-often { 
+    padding: 0 1rem;
+}
+
+#how-often-question {
+    font-size: 1.1rem;
+    margin-left: 0;
+}
+
+#how-many-times /* input */ {
+    margin-left: 18%;
+    margin-top: 7%;
+}
+
+#how-many-times-output-value /* output */ {
+    margin-top: 3.8%;
+    right: 21%;
+}
+
+#what-kind-question-label{
+    margin-left: 3%;
+}
+
+#how-long-label {
+    margin-left: 2.5%;
+    margin-bottom: 6rem;
+    font-size: 1.1rem;
+    width: 90%;
+}
+
+#how-long /* input */ {
+margin-left: 7%;
+margin-bottom: -3%;
+}
+
+#how-long-value /* output */ {
+    right: 31%;
+    margin-top: 2.2%;
+}
+
+#how-long-dropdown {
+    right: 9%;
+    margin-top: 3%;
+}
+
+.moti label {
+    margin-left: 4%;
+}
+
+#how-import-question {
+    margin-left: 9%;
+}
+
+#dropdown {
+    margin-left: 15%;
+}
+
+.addcommen label {
+    margin-left: 23%;
+}
+
+.addcommen textarea {
+    margin-left: 14%;
+}
+
+
+
+
+
+
+}
