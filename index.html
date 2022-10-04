@@ -1,13 +1,13 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="shortcut icon" type="image/png" href="img/exercisefavicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="shortcut icon" type="image/png" href="img/exercisefavicon.png"/>
     
-    <meta charset="utf-8">
+    <meta charset="utf-8"/>
     <meta name="keywords" content="survey, form, exercise"
-    <meta name="description" content="Survey form about exercise habits">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Survey form about exercise habits"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <title>Exercise Survey</title>
 </head>
@@ -24,148 +24,148 @@
     <form id="survey-form">
         <div class="gen-info">
             <label id="email-label" for="email">E-mail:</label>
-            <input placeholder="Type your e-mail here" id="email" type="email" name="email" autocomplete="off" required>
-            <br>
+            <input placeholder="Type your e-mail here" id="email" type="email" name="email" autocomplete="off" required/>
+            <br/>
             
             <label id="name-label" for="name">First Name:</label>
-            <input placeholder="Type your first name here" id="name" type="text" name="fname" autocomplete="off" required>
-            <br>
+            <input placeholder="Type your first name here" id="name" type="text" name="fname" autocomplete="off" required/>
+            <br/>
 
             <label for="lname">Last Name:</label>
-            <input placeholder="Type your last name here" id="lname" type="text" name="lname" autocomplete="off" required>
-            <br>
+            <input placeholder="Type your last name here" id="lname" type="text" name="lname" autocomplete="off" required/>
+            <br/>
 
             <label id="number-label" for="age">Age:</label>
             <input placeholder="Select your age" id="age" type="range" name="age"  min="1" max="120" value="1" oninput="this.nextElementSibling.value = this.value" required/>
             <output id="age-value">1</output>
-            <br>
+            <br/>
             
             <label for="number">Weight (kg):</label>
             <input placeholder="Select your weight" id="number" type="number" name="weight" autocomplete="off" required/>
-            <br>
-            <hr>
+            <br/>
+            <hr/>
         </div>
         
         <!-- Body Type Radio Group -->
         <div class="bod-typ">
             <label id="select-bod" for="bodytype">Select your body type:</label>
-            <br>
+            <br/>
 
             <label for="ectomorph">Ectomorph (skinny)</label>
-            <input placeholder="Select your bodytype" id="ectomorph" type="radio" name="bodytype" value="body-type" required>
-            <br>
+            <input placeholder="Select your bodytype" id="ectomorph" type="radio" name="bodytype" value="body-type" required/>
+            <br/>
             
             <label for="mesomorph">Mesomorph (athletic)</label>
-            <input placeholder="Select your bodytype" id="mesomorph" type="radio" name="bodytype" value="body-type" required>
-            <br>
+            <input placeholder="Select your bodytype" id="mesomorph" type="radio" name="bodytype" value="body-type" required/>
+            <br/>
             
             <label for="endomorph">Endomorph (overweight)</label>
-            <input placeholder="Select your bodytype" id="endomorph" type="radio" name="bodytype" value="body-type" required>
+            <input placeholder="Select your bodytype" id="endomorph" type="radio" name="bodytype" value="body-type" required/>
         </div>
-        <br>
-        <hr>
+        <br/>
+        <hr/>
 
          <!-- Healthy Person Radio Group -->
          <div class="healthy-person">
             <label id="healthy-question" for="healthy">Do you consider yourself a healthy person?</label>
-            <br>
+            <br/>
             
             <label for="healthy-yes">Yes</label>
-            <input name="healthy-person" type="radio" id="healthy-yes" value="healthy-person" required>
-            <br>
+            <input name="healthy-person" type="radio" id="healthy-yes" value="healthy-person" required/>
+            <br/>
 
             <label for="healthy-no">No</label>
-            <input name="healthy-person" type="radio" id="healthy-no" value="healthy-person" required>
+            <input name="healthy-person" type="radio" id="healthy-no" value="healthy-person" required/>
         </div>
-        <br>
-        <hr>
+        <br/>
+        <hr/>
 
         <!-- Do you think exercise is good for you Radio Group -->
         <div class="good4you">
             <label id="good-question-label" for="good-for-you">Do you think exercise is good for you?</label>
-            <br>
+            <br/>
             
             <label for="definitely">Yes, definitely.</label>
-            <input  name="good-for-you" type="radio" id="definitely" value="good-for-you" required >
-            <br>
+            <input  name="good-for-you" type="radio" id="definitely" value="good-for-you" required/>
+            <br/>
             
             <label for="yes">Yes, but you'll survive without it.</label>
-            <input name="good-for-you" type="radio" id="yes" value="good-for-you" required >
-            <br>
+            <input name="good-for-you" type="radio" id="yes" value="good-for-you" required/>
+            <br/>
             
             <label for="no">No, but I do it anyway.</label>
-            <input name="good-for-you" type="radio" id="no" value="good-for-you" required >
-            <br>
+            <input name="good-for-you" type="radio" id="no" value="good-for-you" required/>
+            <br/>
             
             <label for="not-at-all">No, not at all. Avoid it.</label>
-            <input name="good-for-you" type="radio" id="not-at-all" value="good-for-you" required >
+            <input name="good-for-you" type="radio" id="not-at-all" value="good-for-you" required/>
         </div>
-        <br>
-        <hr>
+        <br/>
+        <hr/>
 
         <!-- How often do you exercise Range-->
         <div class="how-often">
             <label id="how-often-question" for="how-many-times">How many times do you exercise per week (1-7)?</label>
-            <br>
-            <input name="how-many-times" type="range" id="how-many-times" value="1" min="0" max="7" required oninput="this.nextElementSibling.value = this.value">
+            <br/>
+            <input name="how-many-times" type="range" id="how-many-times" value="1" min="0" max="7" required oninput="this.nextElementSibling.value = this.value"/>
             <output id="how-many-times-output-value">1</output>
         </div>
-        <br>
-        <hr>
+        <br/>
+        <hr/>
 
         <!-- What kind of exercise do you usually do Checkbox -->
         <div class="what-kind">
             <label id="what-kind-question-label" for="kind-of-exercise">What kind of exercise do you usually do (select all that apply)?</label>
-            <br>
+            <br/>
             
             <label for="free-weights">Free Weights</label>
-            <input name="kind-of-exercise" type="checkbox" id="free-weights" value="kind-free-weights" required>
-            <br>
+            <input name="kind-of-exercise" type="checkbox" id="free-weights" value="kind-free-weights" required/>
+            <br/>
             
             <label for="machines">Machines</label>
-            <input name="kind-of-exercise" type="checkbox" id="machines" value="kind-machines" required>
-            <br>
+            <input name="kind-of-exercise" type="checkbox" id="machines" value="kind-machines" required/>
+            <br/>
            
             <label for="cardio">Cardio</label>
-            <input name="kind-of-exercise" type="checkbox" id="cardio" value="kind-cardio" required>
-            <br>
+            <input name="kind-of-exercise" type="checkbox" id="cardio" value="kind-cardio" required/>
+            <br/>
             
             <label for="crossfit">Crossfit</label>
-            <input name="kind-of-exercise" type="checkbox" id="crossfit" value="kind-crossfit" required>
-            <br>
+            <input name="kind-of-exercise" type="checkbox" id="crossfit" value="kind-crossfit" required/>
+            <br/>
             
             <label id="plyo-label" for="plyometrics">Plyometrics (bodyweight)</label>
-            <input name="kind-of-exercise" type="checkbox" id="plyometrics" value="kind-plyometrics" required>
-            <hr>
+            <input name="kind-of-exercise" type="checkbox" id="plyometrics" value="kind-plyometrics" required/>
+            <hr/>
         </div>
-        <br>
+        <br/>
 
         <!-- How long do you typically exercise for?  -->
         <div class="how-long">
             <label id="how-long-label" for="how-long">How long do you typically excercise for?</label>
-            <input type="range" id="how-long" value="how-long" min="0" max="60" step="1" required oninput="this.nextElementSibling.value = this.value">
+            <input type="range" id="how-long" value="how-long" min="0" max="60" step="1" required oninput="this.nextElementSibling.value = this.value"/>
             <output id="how-long-value">0</output>
             <select id="how-long-dropdown">
                 <option value="min">min</option>
                 <option value="hr(s)">hr(s)</option>
             </select>
         </div>
-        <br>
-        <hr>
+        <br/>
+        <hr/>
    
         <!-- What is your motivation for excercising Textarea -->
         <div class="moti">
             <label for="motivation">What is your motivation for excercising?</label>
-            <br>
+            <br/>
             <textarea placeholder="Type your answer here" id="motivation" required></textarea>
         </div>
-        <br>
-        <hr>
+        <br/>
+        <hr/>
    
         <!-- How important is excercise to you Select Dropdown -->
         <div class="how-important">
             <label id="how-import-question" for="dropdown">How important is excercise to you?</label>
-            <br>
+            <br/>
             <select id="dropdown" required>
                 <option>The most important thing in my life.</option>
                 <option value="very important">Very important.</option>
@@ -175,13 +175,13 @@
                 <option value="not important at all">Not important at all.</option>
             </select>
         </div>
-        <br>
-        <hr>
+        <br/>
+        <hr/>
       
         <!-- Additional Comments Textarea -->
         <div class="addcommen">
             <label for="add-comm">Additional Comments:</label>
-            <br>
+            <br/>
             <textarea placeholder="Type your additional comments here" id="add-comm"></textarea>
         </div>
     
