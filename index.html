@@ -105,7 +105,7 @@
 
         <!-- How often do you exercise Range-->
         <div class="how-often">
-            <label id="how-often-question"for="how-many-times">How many times do you exercise per week (1-7)?</label>
+            <label id="how-often-question" for="how-many-times">How many times do you exercise per week (1-7)?</label>
             <br>
             <input name="how-many-times" type="range" id="how-many-times" value="1" min="0" max="7" required oninput="this.nextElementSibling.value = this.value">
             <output id="how-many-times-output-value">1</output>
@@ -142,7 +142,7 @@
 
         <!-- How long do you typically exercise for?  -->
         <div class="how-long">
-            <label for="how-long">How long do you typically excercise for?</label>
+            <label id="how-long-label" for="how-long">How long do you typically excercise for?</label>
             <input type="range" id="how-long" value="how-long" min="0" max="60" step="1" required oninput="this.nextElementSibling.value = this.value">
             <output id="how-long-value">0</output>
             <select id="how-long-dropdown">
