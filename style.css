@@ -974,10 +974,80 @@ margin-bottom: -3%;
 .addcommen textarea {
     margin-left: 14%;
 }
-
-
-
-
-
-
 }
+
+@media screen and (max-width: 360px) {
+    #healthy-question {
+        margin-left: 1%;
+    }
+
+    #good-question-label {
+        margin-left: 3%;
+    }
+
+    .how-often { 
+        padding-left: 1.3rem;
+        padding-right: 0;
+    }
+
+    #how-many-times {
+        margin-left: 10%;
+    }
+
+    #how-many-times-output-value {
+        right: 17%;
+        margin-top: 2.3%;
+    }
+
+    #what-kind-question-label{
+        margin-left: 3%;
+    }
+
+    .how-long {
+        padding-bottom: 1rem;
+        padding-left: .7rem;
+    }
+
+    #how-long-label {
+        margin-left: 0%;
+        padding-bottom: 4rem;
+    }
+
+    #how-long /* input */ {
+        margin-left: -10%;
+        margin-bottom: -8.5%;
+        }
+
+    #how-long-value /* output */ {
+        right: 28%;
+        margin-top: 8%;
+    }
+
+    #how-long-dropdown {
+        right: 5%;
+        margin-top: 9%;
+    }
+
+    .moti label {
+        padding-left: 2.1rem;
+    }
+
+    .moti textarea {
+        margin-left: 24%;
+    }
+
+    #how-import-question {
+        margin-left: 11%;
+    }
+    
+    .how-important #dropdown {
+        margin-left: 10%;
+    }
+
+    .addcommen label {
+        margin-left: 19%;
+    }
+   
+    .addcommen textarea {
+        margin-left: 7%;
+    }
