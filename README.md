@@ -16,6 +16,7 @@
 
 # Features ⚙
 ## Fully Responsive UI
+![responsive ui gif](./img/responsiveui.gif)
 
 
 ## Range Sliders with Dynamic Color Fill and Custom Unit Selection
