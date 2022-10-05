@@ -11,8 +11,6 @@
 
 ---
 
-# Features ⚙
-
 ## Site Overview 🧐
 ![site overview gif](./img/overview.gif)
 
