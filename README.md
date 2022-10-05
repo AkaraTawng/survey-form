@@ -24,8 +24,8 @@
 ![range sliders gif](./img/rangeslider.gif)
 
 ## Animated Submit Button
-![sumbit button gif](./img/submitbtnlg)
-![sumbit button gif](./img/submitbtnsm)
+![sumbit button gif](./img/submitbtnlg.gif)
+![sumbit button gif](./img/submitbtnsm.gif)
 
 ---
 
